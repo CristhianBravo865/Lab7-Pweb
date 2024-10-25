@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Búsqueda de Imágenes en Google</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="search.html">Búsqueda Simple</a>
+        <a href="image_search.html">Búsqueda de Imágenes</a>
+        <a href="advanced_search.html">Búsqueda Avanzada</a>
+    </nav>
+    
+    <h1>Búsqueda de Imágenes en Google</h1>
+    <form action="https://www.google.com/search" method="GET">
+        <input type="text" name="q" placeholder="Escribe aquí tu búsqueda de imágenes..." required>
+        <input type="hidden" name="tbm" value="isch">
+        <button type="submit">Búsqueda de Imágenes</button>
+    </form>
+</body>
+</html>

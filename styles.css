@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1 {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: rgba(252, 7, 7, 0.708);
+}
+
+.parragraph-advanceds {
+    text-align: left;
+    font-family: Arial, sans-serif;
+    margin-left: 18px;
+    font-weight: bold;
+}
+
+nav {
+    background-color: #115ebc;
+    padding: 15px 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+form {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input[type="text"] {
+    width: 60%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 25px;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    background-color: #115ebc;
+}
+
+button:hover {
+    background-color: #01326a;
+}
+.advanced-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    background-color: #115ebc;
+    margin-left: 98%;
+    transform: translateX(-100%);
+    /*Trabajar con el final del botón*/
+}
+
+.advanced-button:hover {
+    background-color: #01326a;
+}
+
+.form-advanced {
+    margin-top: 10px;
+    display: block;
+    text-align: left;
+    margin-left: 20px;/
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+label {
+    width: 180px;
+}
+
+input[type="text"] {
+    width: 50%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 0;
+}

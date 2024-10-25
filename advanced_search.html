@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Búsqueda Avanzada en Google</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="search.html">Búsqueda Simple</a>
+        <a href="image_search.html">Búsqueda de Imágenes</a>
+        <a href="advanced_search.html">Búsqueda Avanzada</a>
+    </nav>
+
+    <h1>Búsqueda Avanzada en Google</h1>
+    <p class="parragraph-advanceds"> Mostrar páginas que contengan... </p>
+    <form class="form-advanced" action="https://www.google.com/search" method="GET">
+        <div class="form-group">
+            <label for="q">todas estas palabras:</label>
+            <input type="text" id="q" name="q" placeholder="Escribe las palabras clave..." required>
+        </div>
+
+        <div class="form-group">
+            <label for="as_epq">esta palabra o frase exacta:</label>
+            <input type="text" id="as_epq" name="as_epq" placeholder="Escribe la frase exacta...">
+        </div>
+
+        <div class="form-group">
+            <label for="as_eq">ninguna de estas palabras:</label>
+            <input type="text" id="as_eq" name="as_eq" placeholder="Escribe las palabras a excluir...">
+        </div>
+
+        <button type="submit" class="advanced-button">Buscar</button>
+    </form>
+</body>
+
+</html>
